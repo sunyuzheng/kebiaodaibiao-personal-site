@@ -17,13 +17,16 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900">
             孙煜征
-            <span className="text-primary block mt-2 text-3xl md:text-4xl lg:text-5xl">(课代表立正)</span>
+            <span className="text-primary block mt-2 text-2xl md:text-3xl lg:text-4xl font-normal">(Yuzheng Sun)</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-4 font-semibold">
-            构建 AI 原生未来
+            数据科学家 | AI 教育者 | 内容创作者
           </p>
-          <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
-            Superlinear 联合创始人 | 开源项目 Chuanhu-Hi-Tutor 创建者 | 致力于打造新一代的学习与工作范式
+          <p className="text-lg text-gray-500 mb-2 max-w-2xl mx-auto">
+            (课代表立正)
+          </p>
+          <p className="text-base text-gray-400 mb-12 max-w-2xl mx-auto">
+            我坚信"数据科学是一门手艺"，最宝贵的知识来自于亲手实践
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -44,7 +47,7 @@ const Hero = () => {
               联系我
             </a>
             <a
-              href="https://www.linkedin.com/in/sunyuzheng"
+              href="https://www.linkedin.com/in/yuzhengsun"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"

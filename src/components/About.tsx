@@ -1,17 +1,17 @@
 const About = () => {
   const skills = [
-    'AIGC',
-    'LLM 应用开发',
-    'AI 原生应用架构',
-    'Prompt Engineering',
-    'Python',
-    'Go',
-    'Node.js',
-    '分布式系统',
-    'Docker',
-    'Kubernetes',
-    '开源社区运营',
-    '创业',
+    'A/B 测试',
+    '实验设计',
+    '增长科学',
+    '因果推断',
+    '计量经济学',
+    '大语言模型 (LLM) 应用',
+    'AI 产品开发',
+    'AI Agent',
+    '技术写作',
+    '视频制作',
+    '社区运营',
+    '在线课程设计',
   ];
 
   return (
@@ -25,28 +25,28 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div className="flex justify-center">
               <img
-                src="https://api.dicebear.com/7.x/avataaars/svg?seed=SunYuzheng&backgroundColor=b6e3f4,c0aede,d1d4f9"
+                src="https://api.dicebear.com/7.x/avataaars/svg?seed=YuzhengSun&backgroundColor=b6e3f4,c0aede,d1d4f9"
                 alt="孙煜征"
                 className="w-full max-w-sm h-auto rounded-lg shadow-lg"
                 onError={(e) => {
-                  e.currentTarget.src = 'https://ui-avatars.com/api/?name=Sun+Yuzheng&size=400&background=3b82f6&color=fff&bold=true';
+                  e.currentTarget.src = 'https://ui-avatars.com/api/?name=Yuzheng+Sun&size=400&background=3b82f6&color=fff&bold=true';
                 }}
               />
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">孙煜征 (Sun Yuzheng)</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">孙煜征 (Yuzheng Sun)</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                你好，我是孙煜征。我是一名创业者、软件工程师，也是一位开源精神的坚定信奉者。目前，我作为 <strong>Superlinear</strong> 的联合创始人，正与团队一起探索 AI 原生（AI-native）技术的边界，致力于通过构建新一代的学习与工作平台，彻底重塑我们与知识及信息交互的方式。
+                我是一名充满热情的数据科学家和教育者，致力于让数据和 AI 的力量变得触手可及。我坚信"数据科学是一门手艺 (Data science is a craft)"，最宝贵的知识来自于亲手实践。
               </p>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                我的职业生涯始于对构建高效、可靠软件系统的热情。在<strong>微软 (Microsoft)</strong> 和<strong>字节跳动 (ByteDance)</strong> 的工作经历，让我积累了大规模后端系统研发与软件工程的坚实经验。这段旅程不仅磨练了我的技术能力，更让我深刻洞察到前沿技术如何驱动产品创新，并最终影响数亿用户。
+                我的职业生涯始于<strong>康奈尔大学</strong>，在那里我获得了经济学博士学位。随后，我先后在<strong>亚马逊 (Amazon)</strong> 担任经济学家，在<strong>Meta (前 Facebook)</strong> 担任数据科学家，在<strong>腾讯游戏 (Tencent Games)</strong> 担任增长策略与数据科学副总监，深入探索了数据在不同行业的应用。
               </p>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                随着 AIGC 和大语言模型（LLM）浪潮的到来，我敏锐地意识到一场新的技术革命正在发生。为了让更多人能够轻松使用和探索 LLM 的强大能力，我创建了开源项目 <strong>Chuanhu-Hi-Tutor（川虎Hi-Tutor）</strong>。这个项目获得了社区的广泛关注与喜爱，也让我更加坚信开源协作是推动技术普惠的强大动力。
+                最近，我在 A/B 测试领域的创业公司 <strong>Statsig</strong> 担任数据科学家和技术布道师 (Evangelist)。Statsig 致力于将顶级科技公司的实验分析能力产品化，服务于 OpenAI、Notion 等客户，并最终被 OpenAI 收购。
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                我毕业于<strong>南加州大学 (USC)</strong>，获得计算机科学硕士学位，并拥有<strong>同济大学</strong>的软件工程学士学位。无论是作为一名创业者还是开发者，我的核心目标始终未变：<strong>用代码构建工具，用工具放大创造力。</strong>
+                工作之外，我以"<strong>课代表立正</strong>"的身份，在全网拥有超过30万名关注者，分享关于数据科学、AI 应用和职业成长的见解。同时，我创立了 <strong>Superlinear Academy (超线性学院)</strong>，旨在通过体系化的课程和社区，帮助更多人从 AI 的使用者 (Users) 进阶为创造者 (Builders)。
               </p>
               
               <div className="mt-8">
