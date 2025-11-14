@@ -14,7 +14,7 @@ const Contact = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <a
-              href="mailto:contact@example.com"
+              href="mailto:yz@superlinear.academy"
               className="flex flex-col items-center p-6 bg-gray-50 rounded-lg hover:bg-primary hover:text-white transition-all group"
             >
               <Mail size={32} className="mb-3 text-primary group-hover:text-white" />
@@ -22,7 +22,7 @@ const Contact = () => {
             </a>
             
             <a
-              href="https://github.com"
+              href="https://github.com/sunyuzheng"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center p-6 bg-gray-50 rounded-lg hover:bg-gray-900 hover:text-white transition-all group"
@@ -32,7 +32,7 @@ const Contact = () => {
             </a>
             
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sunyuzheng"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center p-6 bg-gray-50 rounded-lg hover:bg-blue-600 hover:text-white transition-all group"
@@ -42,13 +42,13 @@ const Contact = () => {
             </a>
             
             <a
-              href="https://twitter.com"
+              href="https://github.com/sunyuzheng/kebiaodaibiao-personal-site"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center p-6 bg-gray-50 rounded-lg hover:bg-blue-400 hover:text-white transition-all group"
+              className="flex flex-col items-center p-6 bg-gray-50 rounded-lg hover:bg-purple-600 hover:text-white transition-all group"
             >
-              <MessageCircle size={32} className="mb-3 text-blue-400 group-hover:text-white" />
-              <span className="text-sm font-medium">Twitter</span>
+              <Github size={32} className="mb-3 text-purple-600 group-hover:text-white" />
+              <span className="text-sm font-medium">项目</span>
             </a>
           </div>
         </div>

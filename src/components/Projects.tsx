@@ -13,25 +13,25 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'AI Builder 项目',
-      description: '使用 AI 技术构建的现代化 Web 应用，集成了多种 AI 工具和功能。',
-      tags: ['React', 'TypeScript', 'AI'],
-      githubUrl: 'https://github.com',
-      demoUrl: 'https://example.com',
+      title: '个人网站',
+      description: '使用 React + TypeScript + Vite 构建的现代化个人网站，展示个人作品和技能。',
+      tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+      githubUrl: 'https://github.com/sunyuzheng/kebiaodaibiao-personal-site',
+      demoUrl: 'https://kebiaodaibiao-personal-site.ai-builders.space',
     },
     {
       id: 2,
-      title: '个人博客系统',
-      description: '基于 React 和 Node.js 构建的个人博客系统，支持 Markdown 编辑和评论功能。',
-      tags: ['React', 'Node.js', 'MongoDB'],
-      githubUrl: 'https://github.com',
+      title: 'AI 驱动的文本摘要工具',
+      description: '基于 Transformer 模型的开源文本摘要应用，使用 PyTorch 和 FastAPI 构建。',
+      tags: ['Python', 'PyTorch', 'FastAPI', 'NLP'],
+      githubUrl: 'https://github.com/sunyuzheng',
     },
     {
       id: 3,
-      title: '数据分析工具',
-      description: '使用 Python 和机器学习技术开发的数据分析和可视化工具。',
-      tags: ['Python', 'ML', 'Data Visualization'],
-      githubUrl: 'https://github.com',
+      title: '全栈开发辅助平台',
+      description: '面向开发者的 AI 代码辅助平台，集成大语言模型实现智能代码补全和错误诊断。',
+      tags: ['React', 'Node.js', 'GraphQL', 'AI'],
+      githubUrl: 'https://github.com/sunyuzheng',
     },
   ];
 

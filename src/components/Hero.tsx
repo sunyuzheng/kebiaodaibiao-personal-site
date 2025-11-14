@@ -28,7 +28,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <a
-              href="https://github.com"
+              href="https://github.com/sunyuzheng"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
@@ -37,14 +37,14 @@ const Hero = () => {
               GitHub
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:yz@superlinear.academy"
               className="flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors"
             >
               <Mail size={20} />
               联系我
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sunyuzheng"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
