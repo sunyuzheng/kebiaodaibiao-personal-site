@@ -13,25 +13,24 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: '个人网站',
-      description: '使用 React + TypeScript + Vite 构建的现代化个人网站，展示个人作品和技能。',
-      tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-      githubUrl: 'https://github.com/sunyuzheng/kebiaodaibiao-personal-site',
-      demoUrl: 'https://kebiaodaibiao-personal-site.ai-builders.space',
+      title: 'Superlinear',
+      description: 'Superlinear 是一个 AI 原生的学习与工作平台，旨在通过深度集成大语言模型，重构知识管理、团队协作和个人创造力的流程。我们相信，未来的工具应当是智能的、主动的、与人无缝协作的。',
+      tags: ['AI-Native', 'SaaS', 'LLM', '创业'],
+      demoUrl: 'https://superlinear.academy',
     },
     {
       id: 2,
-      title: 'AI 驱动的文本摘要工具',
-      description: '基于 Transformer 模型的开源文本摘要应用，使用 PyTorch 和 FastAPI 构建。',
-      tags: ['Python', 'PyTorch', 'FastAPI', 'NLP'],
-      githubUrl: 'https://github.com/sunyuzheng',
+      title: 'Chuanhu-Hi-Tutor (川虎Hi-Tutor)',
+      description: '一个广受欢迎的开源项目，为大型语言模型（LLM）提供了易于使用的 Web 用户界面。基于 Gradio 构建，让更多人能够轻松使用和探索 LLM 的强大能力。',
+      tags: ['开源', 'LLM', 'Gradio', 'Python'],
+      githubUrl: 'https://github.com/sunyuzheng/Chuanhu-Hi-Tutor',
     },
     {
       id: 3,
-      title: '全栈开发辅助平台',
-      description: '面向开发者的 AI 代码辅助平台，集成大语言模型实现智能代码补全和错误诊断。',
-      tags: ['React', 'Node.js', 'GraphQL', 'AI'],
-      githubUrl: 'https://github.com/sunyuzheng',
+      title: 'awesome-aigc-pop-ai',
+      description: '一个 AIGC 资源聚合列表项目，收集和整理 AI 生成内容相关的优质资源和工具，帮助开发者快速找到所需的技术和工具。',
+      tags: ['AIGC', '资源聚合', '开源'],
+      githubUrl: 'https://github.com/sunyuzheng/awesome-aigc-pop-ai',
     },
   ];
 

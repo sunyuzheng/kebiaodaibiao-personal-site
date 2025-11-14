@@ -16,14 +16,14 @@ const Hero = () => {
       <div className="container-custom text-center">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900">
-            你好，我是
-            <span className="text-primary block mt-2">课代表立正</span>
+            孙煜征
+            <span className="text-primary block mt-2 text-3xl md:text-4xl lg:text-5xl">(课代表立正)</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            分享知识、经验和思考
+          <p className="text-xl md:text-2xl text-gray-600 mb-4 font-semibold">
+            构建 AI 原生未来
           </p>
           <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
-            欢迎来到我的个人空间，这里记录着我的学习历程、项目经验和生活感悟
+            Superlinear 联合创始人 | 开源项目 Chuanhu-Hi-Tutor 创建者 | 致力于打造新一代的学习与工作范式
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
